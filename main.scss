@@ -18,3 +18,38 @@
       opacity: 0;
    }
 }
+
+@keyframes alert {
+   0% {
+      transform: translateY(-20%);
+      opacity: 0;
+   }
+}
+
+@keyframes o-render {
+   0% {
+      transform: scale(0.5);
+      opacity: 0;
+   }
+   65% {
+      transform: scale(1.2);
+      opacity: 1;
+   }
+}
+
+@keyframes x-before {
+   0% {
+      transform: rotate(45deg) translateY(-10%);
+   }
+   65% {
+      transform: rotate(45deg) translateY(10%);
+   }
+}
+@keyframes x-after {
+   0% {
+      transform: rotate(-45deg) translateY(10%);
+   }
+   65% {
+      transform: rotate(-45deg) translateY(-10%);
+   }
+}
